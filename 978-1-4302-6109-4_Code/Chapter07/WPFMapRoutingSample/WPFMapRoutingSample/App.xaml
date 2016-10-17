@@ -1,0 +1,9 @@
+﻿<Application x:Class="WPFMapRoutingSample.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:map="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+              StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <map:ApplicationIdCredentialsProvider x:Key="MyCredentials" ApplicationId="Au6BQoxSUpEWU8AoFsouMtJiG-QEsLVtd0yj423g5RztV0BXT9QSvk3qasPTWqMo" />
+    </Application.Resources>
+</Application>

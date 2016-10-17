@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="ModernAppMapSample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ModernAppMapSample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:map="using:Bing.Maps"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <DataTemplate x:Key="EarthquakeTemplate">
+                <local:CustomPin map:MapLayer.Position="{Binding Location}" 
+                         Tag="{Binding}" 
+                         Text="{Binding Magnitude}"
+                         Tapped="Pushpin_Tapped"/>
+        </DataTemplate>
+        
+        
+    </Page.Resources>
+    
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <map:Map Grid.Column="1" 
+                 x:Name="map" 
+                 Credentials="{StaticResource MyCredentials}">
+            <map:Map.Children>  
+                <map:MapItemsControl 
+                    ItemsSource="{Binding Earthquakes}"
+                    ItemTemplate="{StaticResource EarthquakeTemplate}"/>
+                <map:MapLayer x:Name="ContentPopupLayer">
+                    <Grid x:Name="ContentPopup" Visibility="Collapsed" Background="White" Opacity="0.85">
+                        <StackPanel Margin="15"> 
+                            <TextBlock x:Name="ContentPopupText" Foreground="Black" FontSize="12" FontWeight="Bold" ></TextBlock>
+                            <TextBlock x:Name="ContentPopupDescription" Foreground="Black" FontSize="12"></TextBlock>
+                        </StackPanel>
+                    </Grid>
+                </map:MapLayer>
+
+            </map:Map.Children>
+        </map:Map>
+    </Grid>
+</Page>

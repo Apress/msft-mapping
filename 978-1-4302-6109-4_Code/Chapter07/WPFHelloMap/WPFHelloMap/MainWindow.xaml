@@ -1,0 +1,25 @@
+﻿<Window x:Class="WPFHelloMap.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:map="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        Title="MainWindow" Height="600" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="32" />
+        </Grid.RowDefinitions>
+            <map:Map Grid.Row="0"
+              x:Name="Map"
+                 Mode="AerialWithLabels" 
+                 HorizontalAlignment="Stretch" 
+                 VerticalAlignment="Stretch" 
+                 AnimationLevel="Full"
+                 MouseUp="Map_MouseUp"
+                 CredentialsProvider="{StaticResource MyCredentials}" >
+            <map:Pushpin 
+                Location="37.39366,-122.07888"
+                />
+        </map:Map>
+        <Button Grid.Row="1" Height ="32" Width="128" Content="Show Red Rock" Click="Button_Clicked"/>
+    </Grid>
+</Window>

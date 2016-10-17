@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "WCFEarthquakeService", "WCFEarthquakeService\WCFEarthquakeService.ccproj", "{5032818A-D3DC-4E8E-8AA6-72139C53841E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServiceWebRole1", "WCFServiceWebRole1\WCFServiceWebRole1.csproj", "{DCAC5DAE-A55E-4CDE-8EF1-799EC8D33C09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5032818A-D3DC-4E8E-8AA6-72139C53841E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5032818A-D3DC-4E8E-8AA6-72139C53841E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5032818A-D3DC-4E8E-8AA6-72139C53841E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5032818A-D3DC-4E8E-8AA6-72139C53841E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCAC5DAE-A55E-4CDE-8EF1-799EC8D33C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCAC5DAE-A55E-4CDE-8EF1-799EC8D33C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCAC5DAE-A55E-4CDE-8EF1-799EC8D33C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCAC5DAE-A55E-4CDE-8EF1-799EC8D33C09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

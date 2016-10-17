@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingMapOnAzure", "BingMapOnAzure\BingMapOnAzure.csproj", "{519F1C4D-ED38-4346-B6E4-B6C2C2D16273}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "BingMapOnAzure.Azure", "BingMapOnAzure.Azure\BingMapOnAzure.Azure.ccproj", "{379D9AAF-D83E-4E54-941E-E4DF917C498D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{519F1C4D-ED38-4346-B6E4-B6C2C2D16273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{519F1C4D-ED38-4346-B6E4-B6C2C2D16273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{519F1C4D-ED38-4346-B6E4-B6C2C2D16273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{519F1C4D-ED38-4346-B6E4-B6C2C2D16273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{379D9AAF-D83E-4E54-941E-E4DF917C498D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{379D9AAF-D83E-4E54-941E-E4DF917C498D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{379D9AAF-D83E-4E54-941E-E4DF917C498D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{379D9AAF-D83E-4E54-941E-E4DF917C498D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

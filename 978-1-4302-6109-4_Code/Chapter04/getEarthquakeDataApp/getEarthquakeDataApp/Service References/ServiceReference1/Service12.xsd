@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WCFServiceWebRole1" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WCFServiceWebRole1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://4f17f7a9e1d849778402996b2359adbb.cloudapp.net/Service1.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Microsoft.Maps.MapControl.WPF" />
+  <xs:complexType name="ArrayOfEarthquake">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Earthquake" nillable="true" type="tns:Earthquake" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEarthquake" nillable="true" type="tns:ArrayOfEarthquake" />
+  <xs:complexType name="Earthquake">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Depth" type="xs:float" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Distance" type="xs:float" />
+      <xs:element minOccurs="0" name="EventID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gap" type="xs:int" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Microsoft.Maps.MapControl.WPF" minOccurs="0" name="Location" nillable="true" type="q1:Location" />
+      <xs:element minOccurs="0" name="MagType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Magnitude" type="xs:float" />
+      <xs:element minOccurs="0" name="NbStation" type="xs:int" />
+      <xs:element minOccurs="0" name="RMS" type="xs:float" />
+      <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Version" type="xs:float" />
+      <xs:element minOccurs="0" name="When" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Earthquake" nillable="true" type="tns:Earthquake" />
+</xs:schema>

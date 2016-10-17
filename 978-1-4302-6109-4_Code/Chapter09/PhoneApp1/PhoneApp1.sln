@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneApp1", "PhoneApp1\PhoneApp1.csproj", "{23517D88-9EF5-4ED0-8017-146E7984DCED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23517D88-9EF5-4ED0-8017-146E7984DCED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23517D88-9EF5-4ED0-8017-146E7984DCED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23517D88-9EF5-4ED0-8017-146E7984DCED}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{23517D88-9EF5-4ED0-8017-146E7984DCED}.Debug|ARM.ActiveCfg = Debug|ARM
+		{23517D88-9EF5-4ED0-8017-146E7984DCED}.Debug|ARM.Build.0 = Debug|ARM
+		{23517D88-9EF5-4ED0-8017-146E7984DCED}.Debug|ARM.Deploy.0 = Debug|ARM
+		{23517D88-9EF5-4ED0-8017-146E7984DCED}.Debug|x86.ActiveCfg = Debug|x86
+		{23517D88-9EF5-4ED0-8017-146E7984DCED}.Debug|x86.Build.0 = Debug|x86
+		{23517D88-9EF5-4ED0-8017-146E7984DCED}.Debug|x86.Deploy.0 = Debug|x86
+		{23517D88-9EF5-4ED0-8017-146E7984DCED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23517D88-9EF5-4ED0-8017-146E7984DCED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23517D88-9EF5-4ED0-8017-146E7984DCED}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{23517D88-9EF5-4ED0-8017-146E7984DCED}.Release|ARM.ActiveCfg = Release|ARM
+		{23517D88-9EF5-4ED0-8017-146E7984DCED}.Release|ARM.Build.0 = Release|ARM
+		{23517D88-9EF5-4ED0-8017-146E7984DCED}.Release|ARM.Deploy.0 = Release|ARM
+		{23517D88-9EF5-4ED0-8017-146E7984DCED}.Release|x86.ActiveCfg = Release|x86
+		{23517D88-9EF5-4ED0-8017-146E7984DCED}.Release|x86.Build.0 = Release|x86
+		{23517D88-9EF5-4ED0-8017-146E7984DCED}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
